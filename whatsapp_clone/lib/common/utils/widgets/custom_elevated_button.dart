@@ -17,13 +17,7 @@ class CustomElevatedButton extends StatelessWidget {
       child: ElevatedButton(
         child: Text(text),
         onPressed: onPressed,
-        style: ElevatedButton.styleFrom(
-          backgroundColor: Coloors.greenDark,
-          foregroundColor:Coloors.backGroundDark,
-          splashFactory: NoSplash.splashFactory,
-          elevation: 0,
-          shadowColor: Colors.transparent,
-        ),
+
       ),
     );
   }
