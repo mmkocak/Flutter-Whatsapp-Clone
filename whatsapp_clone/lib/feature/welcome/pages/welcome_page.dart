@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/common/extencion/custom_theme_extension.dart';
 import 'package:whatsapp_clone/common/utils/colors.dart';
 import 'package:whatsapp_clone/common/utils/widgets/custom_elevated_button.dart';
 import 'package:whatsapp_clone/feature/welcome/widgets/language_button.dart';
@@ -20,7 +21,7 @@ class WelcomePage extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 10),
                 child: Image.asset(
                   "assests/images/circle.png",
-                  color: Coloors.greenDark,
+                  color: context.theme.circleImageColor,
                 ),
               ),
             ),
